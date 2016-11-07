@@ -1,0 +1,6 @@
+git init
+git add --all
+git commit -m 'Fontes Iniciais em Node'
+git remote add origin https://github.com/fgirardi/NodeJs.git
+git push origin master
+git push -f origin master
