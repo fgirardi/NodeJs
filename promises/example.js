@@ -19,7 +19,7 @@ let promise2 = new Promise((resolve, reject) => {
 //}).catch((error) => {
 	//console.error(error);
 //});
-
+For all promisses
 Promise.all(([promise1, promise2])
 	.then([resultado1, resultado2]) => {
 		console.log('promises resolvidas');
