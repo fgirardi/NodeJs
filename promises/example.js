@@ -22,12 +22,12 @@ let promise2 = new Promise((resolve, reject) => {
 
 Promise.all(([promise1, promise2])
 	.then([resultado1, resultado2]) => {
-		console.log("promises resolvidas');
+		console.log('promises resolvidas');
 		console.log(resultado1);
 		console.log(resultado2);
 	})
 	.catch((error) => {
-		console.log("promise rejeitada');
+		console.log('promise rejeitada');
 		console.log(error);
 	})
 
