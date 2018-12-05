@@ -10,12 +10,24 @@ let promise2 = new Promise((resolve, reject) => {
 	}, 2000);
 });
 
-promise1.then((resultado) => {
-	console.log(resultado);
-})
+//promise1.then((resultado) => {
+	//console.log(resultado);
+//})
 
-promise2.then((resultado) => {
-	console.log(resultado);
-}).catch((error) => {
-	console.error(error);
-});
+//promise2.then((resultado) => {
+	//console.log(resultado);
+//}).catch((error) => {
+	//console.error(error);
+//});
+
+Promise.all(([promise1, promise2])
+	.then([resultado1, resultado2]) => {
+		console.log("promises resolvidas');
+		console.log(resultado1);
+		console.log(resultado2);
+	})
+	.catch((error) => {
+		console.log("promise rejeitada');
+		console.log(error);
+	})
+
