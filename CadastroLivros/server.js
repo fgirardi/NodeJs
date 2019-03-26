@@ -5,7 +5,7 @@ const servidor = http.createServer(function (req, res) {
 				<meta charset ="utf-8">
 			</head>
 			<body>
-				<h1>Livraria do Girardi</h1>
+				<h1>Livraria do Fabiano Girardi</h1>
 			</body>
 		</html>`
 		);
