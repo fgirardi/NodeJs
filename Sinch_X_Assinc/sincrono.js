@@ -3,5 +3,5 @@ t();
 console.log('3');
 
 function t() {
-	console.log('2');
+console.log('2');
 }
